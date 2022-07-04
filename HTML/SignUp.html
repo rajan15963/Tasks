@@ -22,22 +22,58 @@
 
     <div class="middle-body">
 
-        <form action="#">
+        <form method="get">
 
             <label for="firstName">First Name</label>
-            <input type="text" id="firstName" name="firstName" required><br><br>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <br><br>
 
             <label for="lastName">Last Name</label>
-            <input type="text" id="lastName" name="lastName"><br><br>
+            <input type="text" id="lastName" name="lastName">
+
+            <br><br>
+
+            Gender:
+
+                <label for="gender">Male</label>
+                <input type="radio" id="male" name="gender" value="gender_Male">
+
+                <label for="gender">Female</label>
+                <input type="radio" id="female" name="gender" value="gender_Female">
+
+            <br><br>
+
+            Employment:
+
+                <select name="lastEmployer" id="lastEmployer">
+                    <option value="lastEmployer_TCS">TCS</option>
+                    <option value="lastEmployer_Wipro">Wipro</option>
+                    <option value="lastEmployer_DassaultSystemes">Dassault Systemes</option>
+                    <option value="lastEmployer_Other">Other</option>
+                </select>
+            
+            <br><br>
 
             <label for="emailID">User ID</label>
-            <input type="email" id="userID" name="userID" placeholder="Email ID"><br><br>
+            <input type="email" id="userID" name="userID" placeholder="Email ID">
+
+            <br><br>
+
+            About You!
+            <textarea name="about" id="about" cols="30" rows="5"></textarea>
+
+            <br><br>
 
             <label for="password">Password</label>
-            <input type="password" id="Password" name="Password" required><br><br>
+            <input type="password" id="Password" name="Password" required>
+
+            <br><br>
 
             <label for="reEnterPassword">Re-enter Password</label>
-            <input type="password" id="reEnterPassword" name="reEnterPassword"><br><br>
+            <input type="password" id="reEnterPassword" name="reEnterPassword">
+
+            <br><br>
 
             <button type="submit">Sign Up</button>
             <button type="button">
