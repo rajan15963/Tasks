@@ -1,1 +1,19 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+/* selected tag{
+    property: value;
+} */
+
+body{
+    background-color: rgba(232, 230, 218, 0.5);
+}
+
+div{
+    background-color: rgba(204, 226, 227, 1);
+    border-color: rgba(136, 180, 181, 1);
+    border-width: 3px;
+    border-style: double;
+}
+
+h1{
+    /* color: blue; */
+    color: rgba(252, 19, 3, 0.65);
+}
