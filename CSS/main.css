@@ -3,7 +3,7 @@
 } */
 
 body{
-    background-color: rgba(204, 226, 227, 0.1);
+    background-color: rgba(224, 224, 220, 0.7);
     /* background: url(https://png.pngtree.com/thumb_back/fh260/background/20190814/pngtree-abstract-background-image_298809.jpg); */
 }
 
@@ -12,6 +12,14 @@ div{
     border-color: rgba(136, 180, 181, 1);
     border-width: 3px;
     border-style: double;
+}
+
+.upper-body{
+    background-color: rgba(217, 22, 204, 1);
+}
+
+.left-alignment{
+    background-color: rgb(217, 22, 204);
 }
 
 h1{
