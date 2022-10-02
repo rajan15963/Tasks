@@ -42,9 +42,11 @@ h1{
     Select all ul elements that are present immediately after h1
 } */
 
-li a[href="supportPage.html"]{ /* Here put the link that is used in the li anchor tag to identify for which you are modifying the CSS */
+/* li a[href="supportPage.html"]{ 
     color: red;
     border: 5px solid orange;
-    /* This tag is for anchor tag if there is any list  
-    all anchor tags inside a list */
-}
+    
+    Here put the link that is used in the li anchor tag to identify for which you are modifying the CSS
+    This tag is for anchor tag if there is any list  
+    all anchor tags inside a list
+} */
